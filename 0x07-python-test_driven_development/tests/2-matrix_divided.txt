@@ -1,8 +1,12 @@
+# The ``2-matrix_divided`` module
 ==============================
 How to Use 2-matrix_divided.py
 ==============================
 
 This module defines a matrix division function ``matrix_divided(matrix, div)``.
+
+This library has one function called ``matrix_divided()``
+
 
 Usage
 =====
@@ -89,7 +93,7 @@ Note that an empty list will raise the TypeError.
     Traceback (most recent call last):
     TypeError: matrix must be a matrix (list of lists) of integers/floats
 
-But an empty list of lists will succeed.
+But an empty list of the lists will succeed.
 
 ::
 
