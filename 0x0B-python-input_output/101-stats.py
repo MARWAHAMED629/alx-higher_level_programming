@@ -56,3 +56,4 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         print_stats(size, status_codes)
         raise
+    print_stats()
