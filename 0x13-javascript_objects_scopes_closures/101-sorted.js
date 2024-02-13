@@ -11,4 +11,5 @@ for (const key in dict) {
     n_dict[dict[key]] = [key];
   }
 }
+
 console.log(n_dict);
