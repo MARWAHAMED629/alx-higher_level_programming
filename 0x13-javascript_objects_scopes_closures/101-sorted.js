@@ -1,4 +1,5 @@
 #!/usr/bin/node
+
 const { dict } = require('./101-data');
 const n_dict = {};
 for (const key in dict) {
