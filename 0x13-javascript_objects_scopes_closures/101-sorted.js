@@ -1,5 +1,5 @@
 #!/usr/bin/node
-
+// computes the dictionary of an  user ids by occurrence.
 const { dict } = require('./101-data');
 const n_dict = {};
 for (const key in dict) {
