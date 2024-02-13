@@ -1,7 +1,11 @@
 #!/usr/bin/node
-const o_lList = require('./100-data').list;
-console.log(o_List);
-const mapList = o_List.map (function (e, index) {
-  return (e * index);
-});
-console.log(mapList);
+const { dict } = require('./101-data');
+const n_dict = {};
+for (const key in dict) {
+  if (dict[key] in newdict) {
+    n_dict[dict[key]].push(key);
+  } else {
+    n_dict[dict[key]] = [key];
+  }
+}
+console.log(n_dict);
