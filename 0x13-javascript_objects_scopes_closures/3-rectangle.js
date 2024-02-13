@@ -13,7 +13,7 @@ class Rectangle {
 	 s += 'X';
        }
        console.log(s);
-     }
+      }
     }
 }
 
