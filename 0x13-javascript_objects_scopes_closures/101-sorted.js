@@ -1,7 +1,9 @@
 #!/usr/bin/node
-// computes the dictionary of an  user ids by occurrence.
+
+// computes the dictionary of user ids by occurrence.
 const { dict } = require('./101-data');
 const n_dict = {};
+
 for (const key in dict) {
   if (dict[key] in n_dict) {
     n_dict[dict[key]].push(key);
