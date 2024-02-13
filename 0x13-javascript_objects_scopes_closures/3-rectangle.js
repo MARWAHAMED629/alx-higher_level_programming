@@ -13,8 +13,8 @@ class Rectangle {
 	 s += 'X';
        }
        console.log(s);
-      }
-    }
+     }
+   }
 }
 
 module.exports = Rectangle;
