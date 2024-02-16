@@ -5,8 +5,6 @@
     Username, password and database names are given as user args
 """
 
-
-
 import MySQLdb
 from sys import argv
 
